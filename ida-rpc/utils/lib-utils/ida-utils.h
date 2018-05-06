@@ -7,7 +7,7 @@ namespace ida_utils
 {
 	bool is_idb_loaded( ) {
 
-		return ( strlen( get_path( PATH_TYPE_IDB ) ) != 0 );
+		return ( strlen( get_path( PATH_TYPE_IDB ) ) == 0 );
 	}
 
 	const char* get_current_filename( ) {
