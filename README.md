@@ -11,4 +11,4 @@ To install ida-rpc simply copy the two binaries from the [latest release](https:
 to change options within the plugin open the plugins menu and select IDA RPC ```Edit -> Plugins -> IDA RPC``` or use the default hotkey ```Ctrl-Alt-R```
 
 ## :flushed:
-Didnt see any point in uploading source as its such a simple plugin, will upload if requested though
+~~Didnt see any point in uploading source as its such a simple plugin, will upload if requested though~~
