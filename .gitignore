@@ -28,5 +28,5 @@
 *.app
 
 # Bullshit VS Stuff
-/ida-rpc/.vs/
+/.vs/
 /ida-rpc/x64/

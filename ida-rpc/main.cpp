@@ -260,7 +260,7 @@ static int idaapi IDAP_init( void ) {
 			return PLUGIN_SKIP;
 		}
 	}
-	if ( !ida_utils::is_idb_loaded( ) ) {
+	else if ( !ida_utils::is_idb_loaded( ) && g_options.rpc_enabled ) {
 
 		if( g_options.output_type >= ( int )output_type::errors_results_and_interim_steps && g_options.output_enabled ) {
 			msg( "[%s] %s -> no idb currently loaded setting state to idle\n", IDAP_name, __FUNCTION__ );
