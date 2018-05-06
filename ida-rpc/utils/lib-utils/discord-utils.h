@@ -46,7 +46,7 @@ namespace discord_utils
 
 			const char* current_function = ida_utils::get_current_function_name( );
 
-			if ( current_function != NULL ) {
+			if ( current_function != NULL && strcmp( current_function, "(null)" ) != 0 ) {
 				
 				if ( g_options.address_enabled ) {
 
