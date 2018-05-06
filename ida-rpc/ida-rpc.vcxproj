@@ -49,6 +49,7 @@
     <CustomBuildBeforeTargets />
     <CustomBuildAfterTargets>
     </CustomBuildAfterTargets>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
     <GenerateManifest>false</GenerateManifest>
@@ -56,6 +57,7 @@
     <TargetName>$(ProjectName)64</TargetName>
     <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\linker\</IntDir>
     <CustomBuildAfterTargets>CopyFilesToOutputDirectory</CustomBuildAfterTargets>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
