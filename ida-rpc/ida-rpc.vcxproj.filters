@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="options.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\build-version\ver64.h">
+      <Filter>utils\build-version</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\build-version\ver.h">
+      <Filter>utils\build-version</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="options.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="utils\lib-utils\discord-utils.h">
+      <Filter>utils\lib-utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\lib-utils\ida-utils.h">
+      <Filter>utils\lib-utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{a6f02945-8c49-4fe2-a0b8-4967fb2460a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\build-version">
+      <UniqueIdentifier>{46de9f82-c32f-4486-a702-0f300e18cd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\lib-utils">
+      <UniqueIdentifier>{289053f0-fda2-4d12-9e2a-21798180e56f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
