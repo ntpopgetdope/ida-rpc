@@ -28,6 +28,3 @@
 #include <ua.hpp>
 #include <fpro.h>
 #include <diskio.hpp>
-
-#pragma comment( lib, "ida.lib" )
-#pragma comment( lib, "pro.lib" )
